@@ -44,7 +44,7 @@ namespace FinalFontanessi
                             NuevaVenta.FechaVenta = DateTime.Today;
                             NuevaVenta.NroVenta = ObtenerNroVenta();
                             NuevaVenta.ImporteTotal = PiletaComprada.Precio;
-                            NuevaVenta.NroVenta = ObtenerNroVenta();
+                           
                             ListaVentas.Add(NuevaVenta);
                             RespuestaVentas NuevaRespuesta = new RespuestaVentas(true, "Se registró la nueva pileta del cliente");
                             return NuevaRespuesta;
@@ -74,8 +74,6 @@ namespace FinalFontanessi
             return RespuestaFallo;
 
         }
-
-       
 
         public int ObtenerNroVenta()
         {
