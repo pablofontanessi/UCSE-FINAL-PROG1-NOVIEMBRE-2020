@@ -25,6 +25,7 @@ namespace FinalFontanessi
 
         public override string ObtenerDetalle()
         {
+            //Correccíón: Esto debía resolverse con un enumerador.
             string DescTurno = "";
             string DescArea = "";
             switch (NroTurno)
