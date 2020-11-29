@@ -18,8 +18,11 @@ namespace FinalFontanessi
         public RespuestaVentas RegistrarCompraPileta(int DniCliente, int CodPileta)
         {
             Ventas NuevaVenta = new Ventas();
+            //Corrección: Si el código de pileta no existe, el codigo no funciona al usar dicha variable.
             var PiletaComprada = ListaPiletas.Find(x => CodPileta == x.CodPileta);
+            //Corrección: Si el dni no existe, el codigo no funciona al usar dicha variable.
             var CompradorPileta = ListaPersonas.Find(x => DniCliente == x.DNI);
+
             if (CompradorPileta is Empleado)
             {
                 NuevaVenta.DniComprador = DniCliente;

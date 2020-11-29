@@ -9,7 +9,9 @@ namespace FinalFontanessi
     public class Empleado: Persona
     {
         public DateTime FechaNacimiento { get; set; }
+        //Corrección: No es un enumerador como se pidió
         public int NroTurno { get; set; } //1- Maniana 2- tarde
+        //Corrección: No es un enumerador como se pidió
         public int NroAreaTrabaja { get; set; } // 1- Gerencia 2- Ventas 3- Instalación.
 
         public override string FestejarNuevoAnio()

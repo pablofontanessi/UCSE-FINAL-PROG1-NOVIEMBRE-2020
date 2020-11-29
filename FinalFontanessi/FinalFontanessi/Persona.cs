@@ -17,6 +17,7 @@ namespace FinalFontanessi
         public Localidad LocalidadP { get; set; }
         public virtual string ObtenerDetalle()
         {
+            //Corrección: siempre es mejor utilizar interpolación.
             return Apellido + "," + Nombre + "-" + "Telefono:" + "," + Telefono.ToString() + "-" +
             LocalidadP.Provincia + "," + LocalidadP.NombreLocalidad + "," + Direccion;
 

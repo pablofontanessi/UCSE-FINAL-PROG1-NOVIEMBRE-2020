@@ -3,17 +3,27 @@ Pregunta 1)
 La sobrecarga en C# permite sobrecargar o implementar un método, constructor o instancia con el mismo nombre, pero que reciba distintos argumentos.
 La sobrescritura u Override es necesario para ampliar o modificar la implementacion abstracta o virtual de un método  propiedad o evento heredado.
 
+BIEN, PERO ESTÁ INCOMPLETO.
+
 Pregunta 2) La afirmacion correcta es la a)El nivel de acceso protected restringe el acceso únicamente al código de la clase donde está definida, así como también al código de las clases que hereden de esta.
 
 Pregunta 3) La principal diferencia entre un foreach y un for es que el primero se utiliza para recorrer elementos dentro de una estructura como por ejemplo un List<String> o una lista de objetos mientras que el for es una construcción que va a  realizar una instruccion determinada cantidad de veces.
 La similitud es que ambas estructuras son iterativas es decir que nos permiten realizar una misma instrucción en varias ocaciones.
 
+BIEN. NO ESTÁ BIEN FUNDAMENTADA LA DIFERENCIA
+
 Pregunta 4) Las Interfaces son usadas para indicar qué métodos debe obligatoriamente implementar una subclase de una clase superior. Estas implementaciones no tienen que ser iguan en cada subclase que tenga que implementar dicho metodo.
+
+
+BIEN AUNQUE INCOMPLETO, SE PODRÍA HABLAR DEL PORQUÉ ES IMPORTANTE PARA LA POO POR EJEMPLO, O COMO PUEDE VERSE COMO UNA CASI IMPLEMENTACIÓN DE LA HERENCIA MÚLTIPLE.
+
 
 Pregunta 5) Igual que pregunta 3).
 
 Pregunta 6) Se usan anteponiendo la palabra reservada “ref” antes del tipo de datos del parámetro.
 Su uso más importante es que cuando modificamos el valor del parámetro dentro de un método, al salir del mismo la variable que usamos en el parámetro también se vera modificada.
+
+BIEN AUNQUE FALTA EXPLICAR LA RELACIÓN CON LA MEMORIA Y CON ELLO COMO FUNCIONAN ESOS PARÁMETROS.
 
 Pregunta 7) La opcion incorrecta es la b) int[] numeros = new int[](1,2,3);
 
